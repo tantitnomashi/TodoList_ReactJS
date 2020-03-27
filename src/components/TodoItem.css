@@ -1,0 +1,30 @@
+.TodoItem {
+    font-weight: 200;
+    font-size: 24px;
+    color: #4d4d4d;
+    text-align: left;
+}
+
+.TodoItem-complete {
+    text-decoration: line-through !important;
+    opacity: .3;
+}
+.TodoItem-complete > img {
+    opacity: 1.0 !important;
+    z-index: 99;
+}
+.TodoItem > p {
+    margin: 0;
+    padding: 20px;
+    border-bottom: 0.5px solid lightgray;
+    display: inline-block;
+    min-width: 80%;
+
+}
+.TodoItem img {
+    margin-left: 30px;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    opacity: 0.3;
+}

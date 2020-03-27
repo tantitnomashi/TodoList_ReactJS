@@ -1,10 +1,49 @@
 .App {
+  margin-top: 200px;
   text-align: center;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0.5px solid gainsboro;
 }
-
+.Header {
+  padding: 30px 0;
+  margin: 0;
+}
+.Header input {
+  font-family: monospace;
+  line-height: 40px;
+  font-size: 40px;
+  padding-left: 10px;
+  font-weight: 100;
+  border: none;
+}
+input:focus{
+ outline: none;
+}
+.Do-next::-ms-input-placeholder {
+  font-weight: lighter;
+  color:#AFB2B3;
+}
+.App img {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  margin-right: 30px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.Control-bar{
+  padding: 20px;
+  text-align: center;
+}
+.Control-bar > span {
+  margin: 0px 20px ;
+  border: 0.5px solid grey;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
